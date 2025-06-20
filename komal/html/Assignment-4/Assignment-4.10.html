@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Login Form</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #00a77b, #00755d);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 20px;
+      width: 300px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .login-box .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: white;
+      margin: 0 auto 20px;
+      background-image: url('https://img.icons8.com/ios-filled/100/000000/user-male-circle.png');
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px 15px 10px 40px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      position: relative;
+    }
+
+    .login-box input::placeholder {
+      color: #eee;
+    }
+
+    .login-box .icon {
+      position: absolute;
+      left: 50px;
+      color: white;
+      margin-top: 17px;
+    }
+
+    .login-box button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      border: 2px solid white;
+      background: transparent;
+      color: white;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-box button:hover {
+      background: white;
+      color: #00755d;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <div class="avatar"></div>
+    <div style="position: relative;">
+      <input type="text" placeholder="Username" />
+      <div class="icon" style="top: 0; left: 20px;">👤</div>
+    </div>
+    <div style="position: relative;">
+      <input type="password" placeholder="Password" />
+      <div class="icon" style="top: 0; left: 20px;">🔒</div>
+    </div>
+    <button>LOGIN</button>
+    <div class="footer">designed by freepik.com</div>
+  </div>
+
+</body>
+</html>

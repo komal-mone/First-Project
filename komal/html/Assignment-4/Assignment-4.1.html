@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4.1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    margin: 10px;
+    padding: 0px;
+}
+.main {
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid rgba(0, 0, 255, 0.666);
+    background-color: rgba(135, 206, 250, 0.381);
+    width: 25%;
+    height: auto;
+    box-shadow: 1px -1px 12px 6px lightgray;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+     <h1>Student Registration From</h1>
+    <div class="main">
+        <form action="form">        
+            <div class="main-section">
+        <label for="name">Name:</label>
+   <input type="text" class="name" id="name" name="name"><br><br>
+   <label for="age">Age:</label>
+   <input type="number" class="age" id="age" name="age"><br><br>
+   <label for="email">Email:</label>
+   <input type="text" class="email" id="email" name="email"><br><br>
+   <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <input type="radio" id="other" name="gender" value="other">Other <br><br>
+   <label for="course">course</label>
+   <select name="course" id="">
+    <option value="BCA">BCA</option>
+    <option value="B.Com">B.Com</option>
+    <option value="BA">BA</option>
+   </select><br><br>
+   <input type="submit" class="register"  name="submit" value="Register">
+   </form>
+   </div>
+    </div>
+</body>
+</html>

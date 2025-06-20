@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4.2</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 10px;
+        }
+        h1{
+            color: green;
+            text-align: center;
+
+        }
+        .main{
+            margin: 5px;
+            margin-top: 30px;
+            margin-left: 80vh;
+            padding: 5px;
+            border: 3px dotted green;
+            width: 26%;
+            height: auto;
+            border-radius: 5px;
+            background-color: rgba(0, 128, 0, 0.074);
+            box-shadow: 7px 7px 7px 7px rgba(128, 128, 128, 0.566);
+        }
+        .name{
+             margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+            
+        }
+        input{
+            margin-top: 20px;
+            border-radius: 5px;
+            color: gray;
+        }
+        .dob{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .email{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 18px;
+        }
+        .department{
+              margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .experiance{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .submit{
+              margin: 5px;
+            padding: 2px;
+            text-align: center;
+            width: 80px;
+            height: 25px;
+            margin-bottom: 20px;
+            background-color: rgba(0, 128, 0, 0.751);
+            color: whitesmoke;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration From</h1>
+    <div class="main">
+        <form action="from">
+            <label for="name">Full Name:</label><br>
+            <input type="text" class="name" id="name" name="name"><br>
+            <label for="dob">DOB:</label><br>
+            <input type="date" class="dob" id="dob" name="dob"><br>
+            <label for="email">Email:</label>
+            <input type="email" class="email" id="email" name="email"><br>
+            <label for="department">Department:</label>
+            <input type="text" class="department" id="department" name="department">
+            <label for="experiance">Experiance:</label>
+            <input type="text" class="experiance" id="experiance" name="experiance">
+            <input type="submit" class="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>

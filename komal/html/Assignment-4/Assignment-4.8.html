@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create an Account</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      display: flex;
+      height: 100vh;
+      background: #f8f6f8;
+    }
+    .container {
+      display: flex;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .left-panel {
+      flex: 1;
+      background: linear-gradient(to bottom right, #4b002f, #8b4c68);
+      color: white;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .left-panel h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .left-panel p {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .left-panel button {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 25px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .right-panel {
+      flex: 1;
+      background: #fff;
+      padding: 50px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .right-panel h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4b002f;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+    .social-icons i {
+      font-size: 20px;
+      background: #ddd;
+      padding: 10px;
+      border-radius: 50%;
+      color: #4b002f;
+      cursor: pointer;
+    }
+    .divider {
+      text-align: center;
+      margin: 10px 0;
+      font-size: 12px;
+      color: #888;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    form input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      outline: none;
+      padding-left: 40px;
+      background-color: #f3f3f3;
+    }
+    .form-group {
+      position: relative;
+    }
+    .form-group i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #888;
+    }
+    .signup-btn {
+      background: #4b002f;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 25px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+  </style>
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <h2>Welcome to Our Website!</h2>
+      <p>To keep connected with us, please login to your personal account.</p>
+      <button>Sign In &nbsp; <i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+      <h2>Create an Account</h2>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-google"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <div class="divider">or use your email for registration</div>
+      <form>
+        <div class="form-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password">
+        </div>
+        <button type="submit" class="signup-btn">Sign Up &nbsp; <i class="fas fa-arrow-right"></i></button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

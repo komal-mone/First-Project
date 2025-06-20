@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4.4</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 10px;
+        }
+        h2{
+            color: coral;
+
+        }
+        .main{
+            /*margin: 5px;
+            margin-top: 30px;
+            margin-left: 80vh;*/
+            padding: 5px;
+            border: 3px solid chocolate;
+            width: 50%;
+            height: auto;
+            border-radius: 5px;
+            background-color: rgba(210, 105, 30, 0.448);
+            box-shadow: 7px 7px 7px 7px rgba(128, 128, 128, 0.566);
+        }    
+        .name{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 50vh;
+            height: 17px;
+            
+        }
+        input{
+            margin-top: 15px;
+            border-radius: 3px;
+        }
+        .age{
+            padding: 2px;
+            text-align: left;
+            width: 20vh;
+            height: 15px;
+        }
+        .email{
+             padding: 2px;
+            text-align: left;
+            width: 50vh;
+            height: 15px;
+            margin-bottom: 10px;
+        }
+        label{
+            font-size: 18px;
+            padding-top: 5px;
+        }
+        .available days{
+           
+            text-align: left;
+            width: 50vh;
+            height: 15px;
+        }
+        .area of interest{
+            margin-top: 10px;
+            text-align: left;
+            width: 50vh;
+            height: 15px;
+        }
+        .join now{
+              margin: 5px;
+            padding: 10px 20px;
+            border: 2px solid black;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: orange;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h2>Volunteer Registration From</h2>
+    <div class="main">
+        <form action="from">
+            <label for="name">Name:</label>
+            <input type="text" class="name" id="name" name="name"><br>
+            <label for="age">Age:</label>
+            <input type="age" class="age" id="age" name="age"><br>
+            <label for="email">Email:</label>
+            <input type="email" class="email" id="eamil" name="eamil"><br>
+            <label for="available days">Available Days:</label><br>
+            <input type="checkbox" id="Mon-Fri" name="available days" class="available days" value="Mon-Fri">Mon-Fri
+            <input type="checkbox" id="Weekends" name="available days" class="available days" value="Weekends">Weekends <br><br>
+            <label for="area of interest">Area of Interest:</label>
+            <input type="text" class="area of interest" id="area of interest" name="area of interest"> <br>
+            <input type="button" class="join now" name="join now" value="Join Now" style="background-color: chocolate; color: whitesmoke;">
+        </form>
+    </div>
+
+</body>
+</html>

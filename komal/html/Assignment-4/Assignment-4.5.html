@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4.3</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 10px;
+        }
+        h2{
+            color: purple;
+            text-align: center;
+
+        }
+        .main{
+            margin: 5px;
+            margin-top: 30px;
+            margin-left: 80vh;
+            padding: 5px;
+            border: 3px solid purple;
+            width: 26%;
+            height: auto;
+            border-radius: 5px;
+            background-color: rgba(221, 160, 221, 0.466);
+            box-shadow: 7px 7px 7px 7px rgba(128, 128, 128, 0.566);
+        }    
+        .name{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        input{
+            margin-top: 20px;
+            border-radius: 5px;
+            color: gray;
+            text-decoration: gray;
+            border: 0.5px solid grey;
+        }
+        .email{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .position{
+             margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 18px;
+            padding-top: 5px;
+        }
+        .uplaod resume{
+              margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .available from{
+            margin: 5px;
+            padding: 2px;
+            text-align: left;
+            width: 53vh;
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        .submit{
+              margin: 5px;
+            padding: 2px;
+            text-align: center;
+            width: 80px;
+            height: 25px;
+            margin-bottom: 20px;
+            background-color:  rgba(128, 0, 128, 0.518);
+            color: whitesmoke;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Job Application From</h2>
+    <div class="main">
+        <form action="from">
+            <label for="name">Name:</label><br>
+            <input type="text" class="name" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" class="email" id="email" name="email"><br>
+            <label for="position">Position:</label>
+            <input type="position" class="position" id="position" name="position"><br>
+            <label for="department">Upload Resume:</label><br>
+            <input type="button" class="upload resume" id="upload resume" name="upload resume" value="Choose File">No file Choosen <br><br>
+            <label for="experiance">Available From:</label><br>
+            <input type="date" class="available from" id="available from" name="available from"><br> <br>
+            <input type="submit" class="submit" name="submit">
+        </form>
+    </div>
+
+</body>
+</html>
